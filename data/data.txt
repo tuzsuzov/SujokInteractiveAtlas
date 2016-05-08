@@ -1,0 +1,1 @@
+Bitmaps mapped to the triangulated DB in the JS file
