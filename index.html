@@ -1,0 +1,29 @@
+<html>
+<head><title>Sujok Interactive Atlas</title></head>
+<body onload="Init();" bgcolor="#ddddff" >
+Sujok Interactive Atlas<br>
+<style>
+	body 
+	{
+		margin:0px;
+		padding:0px;
+		text-align:center;
+	}
+	canvas
+	{
+		outline:0;
+		border:1px solid #333;
+	}
+</style>
+<canvas id="screen" width="640" height="480" onmousemove="Update(event);">Your browser doesn't support Canvas</canvas>
+<br>
+<input style="background-color:lightblue" type="submit" value="    Turn the body    " onClick="Turn();">
+<input style="background-color:lightblue" type="submit" value="   Change the hand   " onClick="Hand();">
+<br><br>
+<input style="background-color:lightblue" type="submit" value="   SUJOK HELP   " onclick="window.open('help.html', '_blank');">
+<p style="font-size:x-small">(C) 2014, Jordan Tuzsuzov</p>
+<script src="atlas.js">Your browser doesn't support JavaScript.</script><br>
+</body>
+<meta name="description" content="Interactive sujok (su-jok, су-джок, суджок) atlas. Unique non-discrete projection algorithm."/>
+<meta name="keywords" content="sujok, su-jok, су-джок, суджок, acupuncture, acupressure, atlas" /> 
+</html>
